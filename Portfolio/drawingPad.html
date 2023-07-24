@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="drawingPad.css" />
+    <title>Drawing Pad</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="title">
+            <h1>DRAWING PAD</h1>
+        </div>
+        <div class="padContainer">
+            <div class="pad"></div>
+            <div class="buttons">
+                <button class="blackButton" onclick="changeColor('black')">
+                    Black
+                </button>
+                <button class="blueButton" onclick="changeColor('blue')">
+                    Blue
+                </button>
+                <button class="redButton" onclick="changeColor('red')">
+                    Red
+                </button>
+                <button class="eraseButton" onclick="changeColor('white')">
+                    Erase
+                </button>
+                <button class="grayButton" onclick="changeColor('gray')">Gray</button>
+                <button class="yellowButton" onclick="changeColor('yellow')">
+                    yellow
+                </button>
+                <button onclick="reset()">Reset</button>
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+<script src="drawingPad.js"></script>
+
+</html>

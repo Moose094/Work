@@ -1,0 +1,63 @@
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: gray;
+    color: white;
+}
+
+.pad {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    background-color: white;  
+}
+
+.padContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 60vw; 
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.blackButton {
+    background-color: black;
+    color: white;
+}
+
+.grayButton {
+    background-color: gray;
+    color: black;
+}
+
+.yellowButton {
+    background: yellow;
+}
+.redButton {
+    background-color: red;
+    color:white;
+}
+.blueButton {
+    background-color: blue;
+    color: white
+}
+
+.eraseButton {
+    background-color: white;
+    color: black;
+}

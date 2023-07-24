@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Contact</title>
+	  <!-- link to the favicon -->
+      <link rel="shortcut icon" href="favicon.ico"/>
+	  <style>
+	    body{
+
+             padding:0;
+             margin:0;
+		}
+	  
+	     /*this styles my header*/
+         header{
+            text-align:center;
+            background-color:#008000;
+            color:white;
+            margin-top: -20px;
+            height:30px;
+         }
+		 
+		 #topnav{
+             background-color:#C79E20;
+             color:white;
+             height:30px;
+        }
+
+        #top{
+            display:flex;
+            justify-content:space-between;
+
+        }
+		
+		/*styles the footer*/
+       footer{
+              position:fixed;
+              bottom:0;
+              background-color:#A7851B;
+              color:white;
+              width:100%;
+              height:5%;
+           }
+		   
+		   section{
+		   
+		   display:flex;
+		   }
+	    
+   /*styles the first part of the flexbox*/
+        .part1{
+            flex:1
+        }
+
+    /*styles the second part*/
+       .mido{
+            flex:3
+        }
+
+    /*styles the third part*/
+       .last{
+            flex:1
+        }
+	  </style>
+</head>
+
+<body>
+
+<!-- this is my navbar-->
+<!-- this is my navbar-->
+<nav id="topnav">
+<div id="top">
+<div><a href="final_project.html">Home</div>
+<div><a href="about.html">About</a></div>
+<div><a href="feature.html">Feature</a></div>
+<div><a href="contact.html">contact</a></div>
+
+</div>
+
+
+</nav>
+
+
+        
+<!-- this is the header of my page-->
+<header>
+
+<h2>Welcome to Africa!</h2>
+
+</header>
+
+<section>
+<div class="part1">
+<img src="afrobush.png" height="500" width="500">
+</div>
+
+<div class="mido">
+
+<form action="./action.php" method="post"> 
+
+<p><b>First Name</b> <input type="text" name="First_Name" placeholder="" required></p><br>
+<p><b>Last Name</b>  <input type="text" name="Last_Name" placeholder="" required></p><br>
+<p><b>Email</b>      <input type="email" name="email" placeholder="Enter a valid email address" required></p><br>
+<p><b>Description</b> <textarea rows="5" cols="50" name = "description" required>
+   Ask your question(s) here...
+   </textarea>
+</p>
+<input type="submit" value="Submit">
+</form>
+<!-- code to my SVG -->
+<svg height="80" width="300">
+  <g fill="none">
+    <path stroke="red" d="M5 20 l215 0" />
+    <path stroke="black" d="M5 40 l215 0" />
+    <path stroke="blue" d="M5 60 l215 0" />
+  </g>
+</svg>
+</div>
+
+<div class="last">
+<img src="zebra.png" height="500" width="500">
+
+</div>
+
+
+
+
+</section>
+
+
+
+<footer>
+
+&copy; Moussa Diaby
+</footer>
+</body>
+
+
+
+
+
+
+
+</html>

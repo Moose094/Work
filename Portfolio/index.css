@@ -1,0 +1,83 @@
+#navi {
+    background-color: #1b5cc4;
+    height: 10%;
+}
+
+#navpart {
+    float: right;
+}
+
+.navbutt {
+    border-radius: 20px;
+    width: 75px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+#navtext {
+    font-size: 34px;
+    color: white;
+}
+
+#into {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Chonburi', cursive;
+    font-family: 'Abel', sans-serif;
+
+}
+#portim {
+
+    width: 25%;
+    height: 50%;
+    border-radius: 50%
+}
+
+#firstpar {
+    font-size: 20px;
+}
+
+#pro {
+    text-align: center;
+}
+
+/*styles the footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #1b5cc4;
+    color: white;
+    width: 100%;
+    height: 5%;
+    padding-top: 5px;
+    
+}
+
+
+/* small screen responsiveness */
+@media only screen and (max-width: 600px) {
+    #navi {
+        height: 15%;
+        width: 700px;
+    }
+
+    .navbutt {
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        height: 30px;
+        border-radius: 0%;
+
+
+    }
+
+    #into {
+        max-width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+   
+}

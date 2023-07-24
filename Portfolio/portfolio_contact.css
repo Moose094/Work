@@ -1,0 +1,54 @@
+ #navi {
+     background-color: #1b5cc4;
+     height: 10%
+ }
+
+ #navpart {
+     float: right;
+ }
+
+ #navbutt {
+     border-radius: 20px;
+     margin-top: 5px;
+     width: 75px;
+     height: 50px;
+ }
+
+ #navtext {
+     font-size: 34px;
+     color: white;
+ }
+
+
+
+
+
+
+ /*styles the footer*/
+ footer {
+     position: fixed;
+     bottom: 0;
+     background-color: #1b5cc4;
+     color: white;
+     width: 100%;
+     height: 5%;
+ }
+
+ #main {
+     text-align: center;
+    font-family: 'Abel', sans-serif;
+ }
+
+ #poten {
+     font-size: 24px;
+ }
+
+ #con {
+     font-size: 24px;
+ }
+
+ #tha {
+     font-size: 24px;
+ }
+
+ 
